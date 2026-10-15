@@ -1,0 +1,7 @@
+input("left shift doubles,right shift halves.enter")
+print("3 << 1=",3<<1," 12>>1=",12>>1)
+print("3 << 1=",3<<2," 12>>1=",12>>2)
+n=int(input("enter a number(try5or8):"))
+guess=input("what is "+str(n)+" <<2:")
+input("LEft shift by 2 multiplies by 4:")
+print(" ",n," <<2=",n<<2,"ypur guess:",guess)
